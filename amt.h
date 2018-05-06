@@ -32,4 +32,6 @@ currency_t* make_currency(const wchar_t* name, const wchar_t* code, \
 amt_t* make_amount_c(const char* num, currency_t* ccy);
 amt_t* make_amount_i(const int x, currency_t* ccy);
 
+wchar_t* amount_str(amt_t* x);
+
 #endif
